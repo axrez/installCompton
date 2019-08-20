@@ -8,6 +8,8 @@ These are the names of the required packages in Fedora 30. A list of the depende
 ```
 libXcomposite-devel
 libXdamage-devel
+libXrandr-devel
+libXinerama-devel
 libconfig-devel
 mesa-libGL-devel
 dbus-devel
@@ -16,7 +18,7 @@ asciidoc
 
 All of these can be installed using dnf: 
 ```
-$ sudo dnf install libXcomposite-devel libXdamage-devel libconfig-devel mesa-libGL-devel dbus-devel asciidoc
+$ sudo dnf install libXcomposite-devel libXdamage-devel libXrandr-devel libXinerama-devel libconfig-devel mesa-libGL-devel dbus-devel asciidoc
 ```
 
 ## Get repo and install
